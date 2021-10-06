@@ -1,0 +1,80 @@
+@import "../../global.scss";
+
+
+.recent_works{
+    background-color: tomato;
+    height: 70vh;
+    width: 100vw;
+   
+
+    .project_box{
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+        // background-color: crimson;
+       height: 350px;
+
+     
+     
+
+    .project_card{
+        // border: 3px solid black;
+         width: 700px;
+        height: 100%;
+        border-radius: 20px ;
+        background-color: white;
+
+
+        @include mobile{      
+            // background-color: crimson;
+            width: 400px;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            display: block;
+            
+            }
+       
+
+        .card-body{
+            @include mobile{
+                // width: 200px;
+            //    padding: 80px;
+            //    text-align: center;
+            //    background-color: crimson;
+         
+          
+             
+            }
+        }
+
+        .project_img{
+            // display: block;
+            // height: 355px;
+            width: 200px;   
+            border-radius: 20px 0px 0px 20px;
+            width: 250px;
+            height: 350px;
+         
+            // transform: rotate(90deg);
+
+            @include mobile{
+                // width: 200px;
+                
+                display: none;
+                
+            }
+    
+         
+        }   
+
+       
+    }
+        
+      
+
+
+       
+    }
+}

@@ -1,0 +1,117 @@
+
+@import "../../global.scss";
+
+
+
+.intro{
+  
+    height: 70vh;
+   display: flex;
+
+   @include mobile{
+       flex-direction: column;
+
+   }
+
+   .left{
+    flex: 0.5;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+    .profile{
+        background-color: maroon;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        img{
+            width: 300px;
+            height: 390px;
+            size: 50px;
+           margin-bottom: -20px;
+
+           @include mobile{
+               width: 200px;
+               height: 250px;
+           }
+        }
+
+        
+        
+    }
+       
+   }
+  
+   
+.right{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+
+    @include mobile{
+       
+       align-items: center;
+    }
+
+
+  .btn_section{
+     
+    display: inline;
+    display: flex;
+    flex-direction: row-reverse;
+    button{
+        margin: 8px;
+
+        @include mobile{
+       
+            width: 130px;
+            height: 40px;
+
+         }
+     
+     
+    }
+     
+     
+
+  }
+  
+ .wrapper{
+     flex: 0.9;
+   display: flex;
+    flex-direction: column;
+   justify-content: center  ;
+   
+
+    
+  
+
+    h1{
+
+        font-size: 60px;
+
+        span{
+            font-size: 20px;
+        }
+    }
+
+    span{
+        font-size: 30px;
+    }
+
+ 
+   
+
+ }
+
+   }
+
+}
+
