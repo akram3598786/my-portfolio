@@ -2,21 +2,21 @@
 
 
 .recent_works{
-    background-color: tomato;
+    background-color: rgb(197, 177, 174);
     height: 70vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 
     .project_box{
         display: flex;
-
+        height: 350px;
         align-items: center;
         flex-direction: column;
-        // background-color: crimson;
-       height: 350px;
-
-     
-     
+        background-color: crimson;
+        height: 350px;
 
     .project_card{
         // border: 3px solid black;
@@ -44,8 +44,6 @@
             //    text-align: center;
             //    background-color: crimson;
          
-          
-             
             }
         }
 
@@ -73,8 +71,5 @@
     }
         
       
-
-
-       
     }
 }
