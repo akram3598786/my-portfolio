@@ -6,9 +6,10 @@ import project_img from "../assets/project-7.png"
 
 export const recent_works = () => {
     return (
-        
+      <>
+      <h3 className="text-center ">Recent Works </h3>
  <div className="recent_works" id="recent_works">
-              <h3 className="text-center ">Recent Works </h3>
+              
 
  <div className="container project_box">
 
@@ -42,6 +43,8 @@ export const recent_works = () => {
            
       
         </div>
+
+        </>
     )
 }
 
